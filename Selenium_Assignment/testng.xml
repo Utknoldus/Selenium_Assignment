@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/home/knoldus/IdeaProjects/Selenium_Assignment">
+        <classes>
+            <class name="definition.Function">
+                <methods>
+                    <include name="i_am_in_the_login_page_of_the_demo_qa_site"/>
+                    <include name="i_am_in_the_login_page_of_the_demo_qa_site_for_firefox"/>
+                    <include name="i_am_in_the_login_page_of_the_DemoQa_site_for_headless"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
